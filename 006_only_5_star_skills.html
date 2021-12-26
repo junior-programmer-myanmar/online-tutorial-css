@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify\-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #0a2b3c;
+}
+
+.container{
+    position: relative ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+   padding: 30px;
+   border-radius: 10px;
+   box-shadow: -1px -1px 2px rgba(255, 255, 255, 0.25),
+   2px 2px 5px rgba(255, 255, 255, 0.25),
+   8px 30px 30px rgba(0, 0, 0, 0.4),
+    -2px -2px 5px  rgba(0, 0, 0, 0.3)
+   ;
+}
+
+.container h2{
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #1f9cff;
+}
+
+.container .skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+    padding-right : 10PX ;
+    box-shadow: -1px -1px 2px rgba(255, 255, 255, 0.25),
+   2px 2px 5px rgba(255, 255, 255, 0.25),
+   8px 30px 30px rgba(0, 0, 0, 0.4),
+    -2px -2px 5px  rgba(0, 0, 0, 0.3)
+   ;
+
+}
+
+.container .skills h3{
+     min-width: 100px;
+     text-align: right;
+     padding-right: 20px;
+     color: #ffff;
+     font-size: 20px;
+     font-weight: 400;
+     letter-spacing: 2px;
+}
+
+.container .skills .rating{
+    position: relative;
+    display: flex;
+    margin: 10px 0;
+}
+
+.container .skills .rating input{
+    position: relative;
+    width: 20px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+    overflow: hidden;
+}
+
+.container .skills .rating input::before{
+    content: '\f005';
+    position: absolute;
+    font-family: FontAwesome ;
+    font-size: 14px;
+    position: absolute;
+    left: 4px;
+    color: #ffff;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>5 Star Skills Rating Bar</h2>
+        <div class="skills">
+            <h3>Html</h3>
+             <div class="rating">
+                  <input type="radio" name="html">
+                  <input type="radio" name="html">
+                  <input type="radio" name="html">
+                  <input type="radio" name="html">
+                  <input type="radio" name="html">
+                  <input type="radio" name="html">
+                  <input type="radio" name="html">
+                  <input type="radio" name="html">
+                  <input type="radio" name="html">
+                  <input type="radio" name="html">
+             </div>
+        </div>
+
+    
+
+        <div class="skills">
+            <h3>css</h3>
+             <div class="rating">
+                <input type="radio" name="css">
+                <input type="radio" name="css">
+                <input type="radio" name="css">
+                <input type="radio" name="css">
+                <input type="radio" name="css">
+                <input type="radio" name="css">
+                <input type="radio" name="css">
+                <input type="radio" name="css">
+                <input type="radio" name="css">
+                <input type="radio" name="css">
+             </div>
+        </div>
+
+        <div class="skills">
+            <h3>api</h3>
+             <div class="rating">
+                <input type="radio" name="api">
+                <input type="radio" name="api">
+                <input type="radio" name="api">
+                <input type="radio" name="api">
+                <input type="radio" name="api">
+                <input type="radio" name="api">
+                <input type="radio" name="api">
+                <input type="radio" name="api">
+                <input type="radio" name="api">
+                <input type="radio" name="api">
+             </div>
+        </div>
+
+        
+        <div class="skills">
+            <h3>C#</h3>
+             <div class="rating">
+                <input type="radio" name="c#">
+                <input type="radio" name="c#">
+                <input type="radio" name="c#">
+                <input type="radio" name="c#">
+                <input type="radio" name="c#">
+                <input type="radio" name="c#">
+                <input type="radio" name="c#">
+                <input type="radio" name="c#">
+                <input type="radio" name="c#">
+                <input type="radio" name="c#">
+             </div>
+        </div>
+
+        <div class="skills">
+            <h3>PhP</h3>
+             <div class="rating">
+                <input type="radio" name="php">
+                <input type="radio" name="php">
+                <input type="radio" name="php">
+                <input type="radio" name="php">
+                <input type="radio" name="php">
+                <input type="radio" name="php">
+                <input type="radio" name="php">
+                <input type="radio" name="php">
+                <input type="radio" name="php">
+                <input type="radio" name="php">
+             </div>
+        </div>
+    </div>
+</body>
+</html>
